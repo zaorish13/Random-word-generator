@@ -11,9 +11,9 @@ Features
 - Ensures words are unique across all generated files (no repeats on different days)
 - Saves the generated words into a file with the current date in its name
 - Code is split into separate modules for clarity:
-   - ReadWordsFromFile.py → function to read random words
-   - VerifyWordsInFile.py → function to check if words were already used
-   - WriteWordsToFile.py → function to write new words to today’s file
+   - read_words_from_file.py → function to read random words
+   - verify_words_in_file.py → function to check if words were already used
+   - write_words_to_file.py → function to write new words to today’s file
    - random_word_generator.py → main script that ties everything together
 
 **************
