@@ -8,8 +8,13 @@ The generated words are also saved into a new file named with the current date (
 Features
 - Reads words from a given file (`words.txt`)
 - Lets the user choose how many random words to generate
+- Ensures words are unique across all generated files (no repeats on different days)
 - Saves the generated words into a file with the current date in its name
-- Simple and beginner-friendly project
+- Code is split into separate modules for clarity:
+   - ReadWordsFromFile.py → function to read random words
+   - VerifyWordsInFile.py → function to check if words were already used
+   - WriteWordsToFile.py → function to write new words to today’s file
+   - random_word_generator.py → main script that ties everything together
 
 **************
 Requirements
